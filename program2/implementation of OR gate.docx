@@ -1,0 +1,13 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+entity orGate is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           result : out  STD_LOGIC);
+end orGate;
+
+architecture Behavioral of orGate is
+
+begin
+	result <= a or b;
+end Behavioral;
